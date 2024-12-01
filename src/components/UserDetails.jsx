@@ -8,7 +8,7 @@ const UserDetails = () => {
 
   useEffect(() => {
     getUserById(id).then(setUser);
-  }, [id]);
+  }, [id]);s
 
   const formatDate = (isoString) => {
     const date = new Date(isoString);

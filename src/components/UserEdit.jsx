@@ -54,7 +54,7 @@ function UserEdit() {
 
   if (!user) {
     return <p>User not found</p>;
-  }
+  }s
 
   return (
     <div className="container mt-4">
